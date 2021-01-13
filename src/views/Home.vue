@@ -17,12 +17,14 @@
         <router-link
           :to="experiment.route"
           class="p-4 block rounded-md bg-gray-200 text-gray-400 hover:bg-gray-300 hover:text-gray-500 transition-colors"
-          ><p><span class="iconify" data-icon="fa:home"/>{{ experiment.name }}</p>
+          ><p>
+            <span class="iconify" data-icon="fa:home" />{{ experiment.name }}
+          </p>
           <ul class="flex flex-wrap mt-4" v-if="experiment?.tags?.length > 0">
             <li v-for="tag in experiment?.tags" :key="tag">
               <span
                 :class="[
-                  'text-xs rounded-full bg-gray-300 mr-4 py-1 px-2 font-thin inline-block mb-2',
+                  'text-xs rounded-full bg-green-300 mr-4 py-1 px-2 font-thin inline-block mb-2 text-white',
                 ]"
                 >{{ tag }}</span
               >

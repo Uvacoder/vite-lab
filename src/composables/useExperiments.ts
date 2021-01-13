@@ -19,6 +19,12 @@ export function useExperiments(): ExperimentsComposition {
       route: './modal',
       tags: ['teleport', 'useClickOutside'],
     },
+    {
+      name: 'Battery',
+      icon: 'carbon:battery',
+      route: './battery',
+      tags: ['svg', 'useBattery'],
+    },
   ]);
 
   return {
