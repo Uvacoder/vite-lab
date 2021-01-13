@@ -1,0 +1,24 @@
+{
+    "editor.formatOnSave": true,
+    "eslint.validate": [
+      "vue",
+      "html",
+      "javascript"
+    ],
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#dcf3e8",
+      "activityBar.foreground": "#b4991f"
+    },
+    "beautify.language": {
+      "html": [
+        "html"
+      ],
+      "css": [],
+      "js": []
+    },
+    "html.format.wrapAttributes": "force-aligned",
+    "html.autoClosingTags": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  }
