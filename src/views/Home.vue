@@ -24,7 +24,7 @@
             <li v-for="tag in experiment?.tags" :key="tag">
               <span
                 :class="[
-                  'text-xs rounded-full bg-green-300 mr-4 py-1 px-2 font-thin inline-block mb-2 text-white',
+                  'text-xs rounded-full bg-gradient-to-r from-purple-400 to-blue-400 mr-4 py-1 px-2 font-thin inline-block mb-2 text-white',
                 ]"
                 >{{ tag }}</span
               >

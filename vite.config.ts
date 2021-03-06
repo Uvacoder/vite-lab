@@ -6,10 +6,13 @@ import Components from 'vite-plugin-components';
 
 import ViteIcons, { ViteIconsResolver } from 'vite-plugin-icons';
 import PurgeIcons from 'vite-plugin-purge-icons';
+import ViteFonts from 'vite-plugin-fonts';
 
 export default defineConfig({
-  alias: {
-    '/~/': `${path.resolve(__dirname, 'src')}/`,
+  resolve: {
+    alias: {
+      '/~/': `${path.resolve(__dirname, 'src')}/`,
+    },
   },
   plugins: [
     vue(),
@@ -18,6 +21,11 @@ export default defineConfig({
     }),
     ViteIcons(),
     PurgeIcons(),
+    ViteFonts({
+      google: {
+        families: ['Oswald'],
+      },
+    }),
   ],
   server: {
     open: true,
