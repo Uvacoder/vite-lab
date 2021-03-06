@@ -2,7 +2,7 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import routes from './router';
 import './styles/main.css';
-import 'windi.css';
+import 'animate.css';
 
 /* import '@purge-icons/generated'; */
 

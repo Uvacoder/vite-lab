@@ -25,6 +25,12 @@ export function useExperiments(): ExperimentsComposition {
       route: './battery',
       tags: ['svg', 'useBattery'],
     },
+    {
+      name: 'Fancy Clock',
+      icon: 'carbon:clock',
+      route: './fancy-clock',
+      tags: ['useNow'],
+    },
   ]);
 
   return {

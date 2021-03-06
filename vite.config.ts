@@ -6,7 +6,7 @@ import Components from 'vite-plugin-components';
 
 import ViteIcons, { ViteIconsResolver } from 'vite-plugin-icons';
 import PurgeIcons from 'vite-plugin-purge-icons';
-import WindiCSS from 'vite-plugin-windicss';
+import ViteFonts from 'vite-plugin-fonts';
 
 export default defineConfig({
   resolve: {
@@ -21,8 +21,10 @@ export default defineConfig({
     }),
     ViteIcons(),
     PurgeIcons(),
-    WindiCSS({
-      safelist: 'prose prose-sm m-auto',
+    ViteFonts({
+      google: {
+        families: ['Oswald'],
+      },
     }),
   ],
   server: {

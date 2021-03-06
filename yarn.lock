@@ -630,17 +630,6 @@
   dependencies:
     vue-demi latest
 
-"@windicss/plugin-utils@0.6.10":
-  version "0.6.10"
-  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.6.10.tgz#39a7f5df9f515eae556ef610a8ae21be9b07ef0c"
-  integrity sha512-dMPHtUHmOktnikLah8tmMQjU2gb5AGxuXO8wen3lMo/G8YZI1H9Ua9qnMUIbaJ11mlGhpv89iYEsyfRHThbi/w==
-  dependencies:
-    esbuild "^0.8.56"
-    esbuild-register "^2.2.0"
-    fast-glob "^3.2.5"
-    micromatch "^4.0.2"
-    windicss "^2.2.6"
-
 acorn-jsx@^5.2.0, acorn-jsx@^5.3.1:
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.3.1.tgz#fc8661e11b7ac1539c47dbfea2e72b3af34d267b"
@@ -691,6 +680,11 @@ ajv@^7.0.2:
     json-schema-traverse "^1.0.0"
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
+
+animate.css@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/animate.css/-/animate.css-4.1.1.tgz#614ec5a81131d7e4dc362a58143f7406abd68075"
+  integrity sha512-+mRmCTv6SbCmtYJCN4faJMNFVNN5EuCTTprDTAo7YzIGji2KADmakjVA3+8mVDkZ2Bf09vayB35lSQIex2+QaQ==
 
 ansi-colors@^4.1.1:
   version "4.1.1"
@@ -914,9 +908,9 @@ color-name@^1.0.0, color-name@~1.1.4:
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
 color-string@^1.5.4:
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/color-string/-/color-string-1.5.4.tgz#dd51cd25cfee953d138fe4002372cc3d0e504cb6"
-  integrity sha512-57yF5yt8Xa3czSEW1jfQDE79Idk0+AkN/4KWad6tbdxUmAs3MvjxlWSWD4deYytcRfoZ9nhKyFl1kj5tBvidbw==
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/color-string/-/color-string-1.5.5.tgz#65474a8f0e7439625f3d27a6a19d89fc45223014"
+  integrity sha512-jgIoum0OfQfq9Whcfc2z/VhCNcmQjWbey6qBX0vqt7YICflUmBCh9E9CiQD5GSJ+Uehixm3NUwHVhqUAWRivZg==
   dependencies:
     color-name "^1.0.0"
     simple-swizzle "^0.2.2"
@@ -1071,14 +1065,7 @@ enquirer@^2.3.5:
   dependencies:
     ansi-colors "^4.1.1"
 
-esbuild-register@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/esbuild-register/-/esbuild-register-2.2.0.tgz#1c68af6e8e6c4a23af01825224e71bcbd3c85d83"
-  integrity sha512-27039YMtpC3lI8yYGGm78SAQBtBo/4IPMReWVsNh4++VtvozmasBd1a2HiTdk0297iuA2pMzrzvL5cZJqQCKxQ==
-  dependencies:
-    jsonc-parser "^3.0.0"
-
-esbuild@^0.8.52, esbuild@^0.8.56:
+esbuild@^0.8.52:
   version "0.8.56"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.56.tgz#9c7c3d6e614db7367afa348adb0ab287c296735e"
   integrity sha512-PTMdAWK3JI2MNW811znGssGP5GR44tQPr++VQ1rPP0n8Z1cTKbCPD3S/kXPLr3ZZDIwAaVm08fuFym6Rp8l/0A==
@@ -1628,11 +1615,6 @@ json5@^2.1.3:
   dependencies:
     minimist "^1.2.5"
 
-jsonc-parser@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/jsonc-parser/-/jsonc-parser-3.0.0.tgz#abdd785701c7e7eaca8a9ec8cf070ca51a745a22"
-  integrity sha512-fQzRfAbIBnR0IQvftw9FJveWiHp72Fg20giDrHz6TdfB12UH/uue0D3hm57UB5KgAVuniLMCaS8P1IMj9NR7cA==
-
 jsonfile@^6.0.1:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-6.1.0.tgz#bc55b2634793c679ec6403094eb13698a6ec0aae"
@@ -1934,9 +1916,9 @@ postcss-modules@^4.0.0:
     string-hash "^1.1.1"
 
 postcss-nested@^5.0.1:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/postcss-nested/-/postcss-nested-5.0.3.tgz#2f46d77a06fc98d9c22344fd097396f5431386db"
-  integrity sha512-R2LHPw+u5hFfDgJG748KpGbJyTv7Yr33/2tIMWxquYuHTd9EXu27PYnKi7BxMXLtzKC0a0WVsqHtd7qIluQu/g==
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/postcss-nested/-/postcss-nested-5.0.5.tgz#f0a107d33a9fab11d7637205f5321e27223e3603"
+  integrity sha512-GSRXYz5bccobpTzLQZXOnSOfKl6TwVr5CyAQJUPub4nuRJSOECK5AqurxVgmtxP48p0Kc/ndY/YyS1yqldX0Ew==
   dependencies:
     postcss-selector-parser "^6.0.4"
 
@@ -1969,7 +1951,7 @@ postcss@^6.0.9:
     source-map "^0.6.1"
     supports-color "^5.4.0"
 
-postcss@^8.1.10, postcss@^8.2.7:
+postcss@^8.1.10, postcss@^8.1.6:
   version "8.2.7"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.7.tgz#48ed8d88b4de10afa0dfd1c3f840aa57b55c4d47"
   integrity sha512-DsVLH3xJzut+VT+rYr0mtvOtpTjSyqDwPf5EZWXcb0uAKfitGpTY9Ec+afi2+TgdN8rWS9Cs88UDYehKo/RvOw==
@@ -1978,7 +1960,7 @@ postcss@^8.1.10, postcss@^8.2.7:
     nanoid "^3.1.20"
     source-map "^0.6.1"
 
-postcss@^8.1.6, postcss@^8.2.1:
+postcss@^8.2.1:
   version "8.2.4"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.4.tgz#20a98a39cf303d15129c2865a9ec37eda0031d04"
   integrity sha512-kRFftRoExRVXZlwUuay9iC824qmXPcQQVzAjbCCgjpXnkdMCJYBu2gTwAaFBzv8ewND6O8xFb3aELmEkh9zTzg==
@@ -2362,6 +2344,11 @@ vite-plugin-components@^0.8.0:
     fast-glob "npm:@knightly/fast-glob@master"
     minimatch "^3.0.4"
 
+vite-plugin-fonts@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/vite-plugin-fonts/-/vite-plugin-fonts-0.1.5.tgz#66100e3293d9d3a6bea54d91b44941ac01c8f3be"
+  integrity sha512-yF9Q1OVRGijlgUe8VXkAEGon+3tIAfeFtzOFBUpSDp5OmMVFMwt40Jy/7qMbVmu9tAV1OeCAK1uaUZgjQE5QPg==
+
 vite-plugin-icons@^0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/vite-plugin-icons/-/vite-plugin-icons-0.3.2.tgz#d44542f6d6569d21970e0859bd63893c08c2e97f"
@@ -2378,14 +2365,6 @@ vite-plugin-purge-icons@^0.7.0:
     "@purge-icons/core" "^0.7.0"
     "@purge-icons/generated" "^0.7.0"
     rollup-plugin-purge-icons "^0.7.0"
-
-vite-plugin-windicss@^0.6.10:
-  version "0.6.10"
-  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.6.10.tgz#b2719bc9f29220208162e04c342a8983f7536fdb"
-  integrity sha512-ofeJGvHu/Tz+HIP9Ap0uQHBt5YNi2uv/4yoJH30I3zFE5gAdsKN3GgzrcySQEPaQIgWmcDNbpWqAFejLHFLpzw==
-  dependencies:
-    "@windicss/plugin-utils" "0.6.10"
-    windicss "^2.2.6"
 
 vite@2.0.5:
   version "2.0.5"
@@ -2468,11 +2447,6 @@ which@^2.0.1:
   integrity sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
   dependencies:
     isexe "^2.0.0"
-
-windicss@^2.2.6:
-  version "2.2.7"
-  resolved "https://registry.yarnpkg.com/windicss/-/windicss-2.2.7.tgz#8babe33c685c5df510461475c06366eb0afb1b7b"
-  integrity sha512-a9kaJjdp015mRIIF+W4xO2QFWkLgHd5/P09NbPdD5kDifbRqY0Av2prOhX+ZAqWmrAoUup6t9TIHGCqiKH/q4g==
 
 word-wrap@^1.2.3:
   version "1.2.3"
