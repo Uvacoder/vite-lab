@@ -16,7 +16,7 @@
       >
         <router-link
           :to="experiment.route"
-          class="p-4 block rounded-md bg-gray-200 text-gray-400 hover:bg-gray-300 hover:text-gray-500 transition-colors"
+          class="p-4 block rounded-md border border-gray-100 transition-colors"
           ><p>
             <span class="iconify" data-icon="fa:home" />{{ experiment.name }}
           </p>
